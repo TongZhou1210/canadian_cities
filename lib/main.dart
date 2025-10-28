@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
+//test
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -65,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: const Icon(Icons.delete),
               onPressed: () {
                 setState(() {
+                  //remove city
                   myCities.removeAt(index);
                   print("Delete ${myCities[index]}");
                 });
