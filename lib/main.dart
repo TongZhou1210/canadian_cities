@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "Quebec City",
     "Hamilton",
     "Kitchener",
-    "kelowna"
+    "kelowna11"
   ];
   @override
   Widget build(BuildContext context) {
